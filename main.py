@@ -12,7 +12,7 @@ def download_option():
     global download_button, exit_button
     download_button.grid_forget()
     exit_button.grid_forget()
-    url_user = Entry(button_frame, text="Banana")
+    url_user = Entry(button_frame, text="Insert Your Url")
     download_video = Button(button_frame, text="Download", command = lambda:download(url_user.get()))
     url_user.grid(row=0, column=0)
     download_video.grid(row=0, column=1, padx=10)
