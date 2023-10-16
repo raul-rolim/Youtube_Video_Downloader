@@ -28,7 +28,7 @@ def download(user_url_input):
 def menu():
     global download_button, exit_button, button_frame
 
-    button_frame = LabelFrame(root, text="Buttons", padx=10, pady=10)
+    button_frame = LabelFrame(root, padx=10, pady=10)
     button_frame.pack()
     download_button = Button(button_frame, text="Download a Video", command= download_option)
     exit_button = Button(button_frame, text="EXIT", command=exit)
